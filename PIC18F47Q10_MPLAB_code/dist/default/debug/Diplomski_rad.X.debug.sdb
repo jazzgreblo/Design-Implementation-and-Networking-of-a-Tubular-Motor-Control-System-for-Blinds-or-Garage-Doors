@@ -1,0 +1,1687 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q10 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"78 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _sendBits sendBits `(v  1 s 1 sendBits ]
+"87
+[v _UART_SendBinary UART_SendBinary `(v  1 e 1 0 ]
+"115
+[v _UART_ProcessCommand UART_ProcessCommand `(v  1 e 1 0 ]
+"244
+[v _errorManager errorManager `T(v  1 s 1 errorManager ]
+[v i2_errorManager errorManager `T(v  1 s 1 i2_errorManager ]
+"250
+[v _errorHandler errorHandler `(v  1 e 1 0 ]
+"262
+[v _inputManager inputManager `(v  1 e 1 0 ]
+"290
+[v _controlStopStartChange controlStopStartChange `(a  1 e 1 0 ]
+[v i2_controlStopStartChange controlStopStartChange `(a  1 e 1 0 ]
+"310
+[v _controlMismatchDirectionSoftStart controlMismatchDirectionSoftStart `(a  1 e 1 0 ]
+[v i2_controlMismatchDirectionSoftStart controlMismatchDirectionSoftStart `(a  1 e 1 0 ]
+"327
+[v _controlManager controlManager `(v  1 e 1 0 ]
+[v i2_controlManager controlManager `(v  1 e 1 0 ]
+"419
+[v _CCP2_ArmOneShot CCP2_ArmOneShot `T(v  1 s 1 CCP2_ArmOneShot ]
+"448
+[v _ZCD_Handler ZCD_Handler `(v  1 e 1 0 ]
+"512
+[v _CCP2_CompareISR CCP2_CompareISR `(v  1 e 1 0 ]
+"524
+[v _setTriacHigh setTriacHigh `(v  1 e 1 0 ]
+"561
+[v _setTriacLow setTriacLow `(v  1 e 1 0 ]
+"576
+[v _checkCurrentDetection checkCurrentDetection `(v  1 e 1 0 ]
+"620
+[v _enableCMP1 enableCMP1 `(v  1 e 1 0 ]
+"625
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+"639
+[v _main main `(i  1 e 2 0 ]
+"8 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+"44 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/compare/src/ccp2.c
+[v _CCP2_Initialize CCP2_Initialize `(v  1 e 1 0 ]
+"44 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/dac/src/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+"43 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/fvr/src/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"39 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"9 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"47
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"100
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"109
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"113
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"126
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"135
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"139
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"152
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"161
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"165
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"13 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"130
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"142
+[v _IO_RC1_ISR IO_RC1_ISR `(v  1 e 1 0 ]
+"159
+[v _IO_RC1_SetInterruptHandler IO_RC1_SetInterruptHandler `(v  1 e 1 0 ]
+"166
+[v _IO_RC1_DefaultInterruptHandler IO_RC1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"26 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"47
+[v _TMR0_Deinitialize TMR0_Deinitialize `(v  1 e 1 0 ]
+"60
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+[v i2_TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+"65
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+[v i2_TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+"70
+[v _TMR0_CounterGet TMR0_CounterGet `(ul  1 e 4 0 ]
+"83
+[v _TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+[v i2_TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+"89
+[v _TMR0_PeriodSet TMR0_PeriodSet `(v  1 e 1 0 ]
+"97
+[v _TMR0_PeriodGet TMR0_PeriodGet `(ul  1 e 4 0 ]
+"102
+[v _TMR0_MaxCountGet TMR0_MaxCountGet `(ul  1 e 4 0 ]
+"107
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"119
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"124
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+"60 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"89
+[v _TMR1_Deinitialize TMR1_Deinitialize `(v  1 e 1 0 ]
+"107
+[v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+[v i2_TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+"112
+[v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+[v i2_TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+"117
+[v _TMR1_CounterGet TMR1_CounterGet `(ul  1 e 4 0 ]
+"131
+[v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+[v i2_TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+"149
+[v _TMR1_PeriodSet TMR1_PeriodSet `(v  1 e 1 0 ]
+"156
+[v _TMR1_PeriodGet TMR1_PeriodGet `(ul  1 e 4 0 ]
+"161
+[v _TMR1_MaxCountGet TMR1_MaxCountGet `(ul  1 e 4 0 ]
+"166
+[v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
+"179
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+"184
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+"22 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+"51
+[v _TMR3_Deinitialize TMR3_Deinitialize `(v  1 e 1 0 ]
+"69
+[v _TMR3_Start TMR3_Start `(v  1 e 1 0 ]
+[v i2_TMR3_Start TMR3_Start `(v  1 e 1 0 ]
+"74
+[v _TMR3_Stop TMR3_Stop `(v  1 e 1 0 ]
+[v i2_TMR3_Stop TMR3_Stop `(v  1 e 1 0 ]
+"79
+[v _TMR3_CounterGet TMR3_CounterGet `(ul  1 e 4 0 ]
+"93
+[v _TMR3_CounterSet TMR3_CounterSet `(v  1 e 1 0 ]
+[v i2_TMR3_CounterSet TMR3_CounterSet `(v  1 e 1 0 ]
+"111
+[v _TMR3_PeriodSet TMR3_PeriodSet `(v  1 e 1 0 ]
+"118
+[v _TMR3_PeriodGet TMR3_PeriodGet `(ul  1 e 4 0 ]
+"123
+[v _TMR3_MaxCountGet TMR3_MaxCountGet `(ul  1 e 4 0 ]
+"128
+[v _TMR3_OverflowISR TMR3_OverflowISR `(v  1 e 1 0 ]
+"142
+[v _TMR3_OverflowCallbackRegister TMR3_OverflowCallbackRegister `(v  1 e 1 0 ]
+"147
+[v _TMR3_DefaultOverflowCallback TMR3_DefaultOverflowCallback `(v  1 s 1 TMR3_DefaultOverflowCallback ]
+"22 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_Initialize TMR5_Initialize `(v  1 e 1 0 ]
+"51
+[v _TMR5_Deinitialize TMR5_Deinitialize `(v  1 e 1 0 ]
+"69
+[v _TMR5_Start TMR5_Start `(v  1 e 1 0 ]
+[v i2_TMR5_Start TMR5_Start `(v  1 e 1 0 ]
+"74
+[v _TMR5_Stop TMR5_Stop `(v  1 e 1 0 ]
+[v i2_TMR5_Stop TMR5_Stop `(v  1 e 1 0 ]
+"79
+[v _TMR5_CounterGet TMR5_CounterGet `(ul  1 e 4 0 ]
+"93
+[v _TMR5_CounterSet TMR5_CounterSet `(v  1 e 1 0 ]
+[v i2_TMR5_CounterSet TMR5_CounterSet `(v  1 e 1 0 ]
+"111
+[v _TMR5_PeriodSet TMR5_PeriodSet `(v  1 e 1 0 ]
+"118
+[v _TMR5_PeriodGet TMR5_PeriodGet `(ul  1 e 4 0 ]
+"123
+[v _TMR5_MaxCountGet TMR5_MaxCountGet `(ul  1 e 4 0 ]
+"128
+[v _TMR5_OverflowISR TMR5_OverflowISR `(v  1 e 1 0 ]
+"144
+[v _TMR5_OverflowCallbackRegister TMR5_OverflowCallbackRegister `(v  1 e 1 0 ]
+"149
+[v _TMR5_DefaultOverflowCallback TMR5_DefaultOverflowCallback `(v  1 s 1 TMR5_DefaultOverflowCallback ]
+"131 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"167
+[v _EUSART1_Deinitialize EUSART1_Deinitialize `(v  1 e 1 0 ]
+"190
+[v _EUSART1_TransmitEnable EUSART1_TransmitEnable `(v  1 e 1 0 ]
+"195
+[v _EUSART1_TransmitDisable EUSART1_TransmitDisable `(v  1 e 1 0 ]
+"220
+[v _EUSART1_AutoBaudSet EUSART1_AutoBaudSet `(v  1 e 1 0 ]
+"232
+[v _EUSART1_AutoBaudQuery EUSART1_AutoBaudQuery `(a  1 e 1 0 ]
+"267
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+"272
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+"277
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+"282
+[v _EUSART1_ErrorGet EUSART1_ErrorGet `(ui  1 e 2 0 ]
+"288
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"308
+[v _EUSART1_ReceiveISR EUSART1_ReceiveISR `(v  1 e 1 0 ]
+"353
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+[v i2_EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"377
+[v _EUSART1_TransmitISR EUSART1_TransmitISR `(v  1 e 1 0 ]
+"409
+[v _putch putch `(v  1 e 1 0 ]
+"418
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+"423
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+"430
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"438
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"446
+[v _EUSART1_RxCompleteCallbackRegister EUSART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+"454
+[v _EUSART1_TxCompleteCallbackRegister EUSART1_TxCompleteCallbackRegister `(v  1 e 1 0 ]
+"13658 C:/Users/jazzg/.mchp_packs/Microchip/PIC18F-Q_DFP/1.28.451/xc8\pic\include\proc/pic18f47q10.h
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @3760 ]
+[s S448 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"15228
+[u S455 . 1 `S448 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES455  1 e 1 @3773 ]
+[s S25 . 1 `uc 1 C1IE 1 0 :1:0 
+`uc 1 C2IE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIE 1 0 :1:6 
+`uc 1 HLVDIE 1 0 :1:7 
+]
+"15311
+[u S31 . 1 `S25 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES31  1 e 1 @3775 ]
+[s S765 . 1 `uc 1 SSPIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"15360
+[s S774 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S780 . 1 `S765 1 . 1 0 `S774 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES780  1 e 1 @3776 ]
+[s S671 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR3IE 1 0 :1:2 
+`uc 1 TMR4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR6IE 1 0 :1:5 
+]
+"15440
+[u S678 . 1 `S671 1 . 1 0 ]
+[v _PIE4bits PIE4bits `VES678  1 e 1 @3777 ]
+[s S1280 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 TMR3GIE 1 0 :1:1 
+`uc 1 TMR5GIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CLC1IE 1 0 :1:4 
+`uc 1 CLC2IE 1 0 :1:5 
+`uc 1 CLC3IE 1 0 :1:6 
+`uc 1 CLC4IE 1 0 :1:7 
+]
+"15492
+[u S1289 . 1 `S1280 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES1289  1 e 1 @3778 ]
+[s S178 . 1 `uc 1 CCP1IE 1 0 :1:0 
+`uc 1 CCP2IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 CLC5IE 1 0 :1:4 
+`uc 1 CLC6IE 1 0 :1:5 
+`uc 1 CLC7IE 1 0 :1:6 
+`uc 1 CLC8IE 1 0 :1:7 
+]
+"15548
+[u S186 . 1 `S178 1 . 1 0 ]
+[v _PIE6bits PIE6bits `VES186  1 e 1 @3779 ]
+[s S609 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"15645
+[u S616 . 1 `S609 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES616  1 e 1 @3781 ]
+[s S44 . 1 `uc 1 C1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 ZCDIF 1 0 :1:6 
+`uc 1 HLVDIF 1 0 :1:7 
+]
+"15728
+[u S50 . 1 `S44 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES50  1 e 1 @3783 ]
+[s S799 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"15777
+[s S808 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S814 . 1 `S799 1 . 1 0 `S808 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES814  1 e 1 @3784 ]
+[s S688 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+]
+"15857
+[u S695 . 1 `S688 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES695  1 e 1 @3785 ]
+[s S1259 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CLC1IF 1 0 :1:4 
+`uc 1 CLC2IF 1 0 :1:5 
+`uc 1 CLC3IF 1 0 :1:6 
+`uc 1 CLC4IF 1 0 :1:7 
+]
+"15909
+[u S1268 . 1 `S1259 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES1268  1 e 1 @3786 ]
+[s S159 . 1 `uc 1 CCP1IF 1 0 :1:0 
+`uc 1 CCP2IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 CLC5IF 1 0 :1:4 
+`uc 1 CLC6IF 1 0 :1:5 
+`uc 1 CLC7IF 1 0 :1:6 
+`uc 1 CLC8IF 1 0 :1:7 
+]
+"15965
+[u S167 . 1 `S159 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES167  1 e 1 @3787 ]
+"16625
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16765
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16917
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16968
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17026
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"18511
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3832 ]
+"19083
+[v _IOCAF IOCAF `VEuc  1 e 1 @3845 ]
+"19145
+[v _IOCAN IOCAN `VEuc  1 e 1 @3846 ]
+"19207
+[v _IOCAP IOCAP `VEuc  1 e 1 @3847 ]
+"19269
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"19331
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"19393
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"19455
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19517
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19579
+[v _IOCBF IOCBF `VEuc  1 e 1 @3853 ]
+"19641
+[v _IOCBN IOCBN `VEuc  1 e 1 @3854 ]
+"19703
+[v _IOCBP IOCBP `VEuc  1 e 1 @3855 ]
+"19765
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19827
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19889
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19951
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"20013
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20075
+[v _IOCCF IOCCF `VEuc  1 e 1 @3861 ]
+[s S465 . 1 `uc 1 IOCCF0 1 0 :1:0 
+`uc 1 IOCCF1 1 0 :1:1 
+`uc 1 IOCCF2 1 0 :1:2 
+`uc 1 IOCCF3 1 0 :1:3 
+`uc 1 IOCCF4 1 0 :1:4 
+`uc 1 IOCCF5 1 0 :1:5 
+`uc 1 IOCCF6 1 0 :1:6 
+`uc 1 IOCCF7 1 0 :1:7 
+]
+"20092
+[u S474 . 1 `S465 1 . 1 0 ]
+[v _IOCCFbits IOCCFbits `VES474  1 e 1 @3861 ]
+"20137
+[v _IOCCN IOCCN `VEuc  1 e 1 @3862 ]
+"20199
+[v _IOCCP IOCCP `VEuc  1 e 1 @3863 ]
+"20261
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"20323
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"20385
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"20447
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20509
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20571
+[v _INLVLD INLVLD `VEuc  1 e 1 @3869 ]
+"20633
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3870 ]
+"20695
+[v _ODCOND ODCOND `VEuc  1 e 1 @3871 ]
+"20757
+[v _WPUD WPUD `VEuc  1 e 1 @3872 ]
+"20819
+[v _ANSELD ANSELD `VEuc  1 e 1 @3873 ]
+"20881
+[v _IOCEF IOCEF `VEuc  1 e 1 @3874 ]
+"20902
+[v _IOCEN IOCEN `VEuc  1 e 1 @3875 ]
+"20923
+[v _IOCEP IOCEP `VEuc  1 e 1 @3876 ]
+"20944
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"20982
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3878 ]
+"21014
+[v _ODCONE ODCONE `VEuc  1 e 1 @3879 ]
+"21046
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"21084
+[v _ANSELE ANSELE `VEuc  1 e 1 @3881 ]
+"21268
+[v _FVRCON FVRCON `VEuc  1 e 1 @3884 ]
+[s S298 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 RDY 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"21292
+[s S305 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+[u S313 . 1 `S298 1 . 1 0 `S305 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES313  1 e 1 @3884 ]
+"21437
+[v _DAC1CON0 DAC1CON0 `VEuc  1 e 1 @3886 ]
+"21538
+[v _DAC1CON1 DAC1CON1 `VEuc  1 e 1 @3887 ]
+"21830
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @3892 ]
+[s S59 . 1 `uc 1 SYNC 1 0 :1:0 
+`uc 1 HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 OUT 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"21855
+[s S67 . 1 `uc 1 C1SYNC 1 0 :1:0 
+`uc 1 C1HYS 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 C1POL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 C1OUT 1 0 :1:6 
+`uc 1 C1EN 1 0 :1:7 
+]
+[u S75 . 1 `S59 1 . 1 0 `S67 1 . 1 0 ]
+[v _CM1CON0bits CM1CON0bits `VES75  1 e 1 @3892 ]
+"21910
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @3893 ]
+"21950
+[v _CM1NCH CM1NCH `VEuc  1 e 1 @3894 ]
+"22010
+[v _CM1PCH CM1PCH `VEuc  1 e 1 @3895 ]
+"27488
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+[s S2500 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"27505
+[u S2509 . 1 `S2500 1 . 1 0 ]
+[v _LATAbits LATAbits `VES2509  1 e 1 @3970 ]
+"27550
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"27612
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+[s S2580 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"27629
+[u S2589 . 1 `S2580 1 . 1 0 ]
+[v _LATCbits LATCbits `VES2589  1 e 1 @3972 ]
+"27674
+[v _LATD LATD `VEuc  1 e 1 @3973 ]
+[s S2477 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"27691
+[u S2486 . 1 `S2477 1 . 1 0 ]
+[v _LATDbits LATDbits `VES2486  1 e 1 @3973 ]
+"27736
+[v _LATE LATE `VEuc  1 e 1 @3974 ]
+"27768
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"27890
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"28012
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28134
+[v _TRISD TRISD `VEuc  1 e 1 @3978 ]
+"28256
+[v _TRISE TRISE `VEuc  1 e 1 @3979 ]
+"28442
+[v _PORTC PORTC `VEuc  1 e 1 @3982 ]
+"29637
+[v _RC1REG RC1REG `VEuc  1 e 1 @3992 ]
+"29691
+[v _TX1REG TX1REG `VEuc  1 e 1 @3993 ]
+"29757
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3994 ]
+"29811
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3995 ]
+"29865
+[v _RC1STA RC1STA `VEuc  1 e 1 @3996 ]
+[s S2075 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"29891
+[u S2084 . 1 `S2075 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES2084  1 e 1 @3996 ]
+"30045
+[v _TX1STA TX1STA `VEuc  1 e 1 @3997 ]
+[s S2096 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"30071
+[u S2105 . 1 `S2096 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES2105  1 e 1 @3997 ]
+"30225
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3998 ]
+[s S2117 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"30259
+[u S2126 . 1 `S2117 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES2126  1 e 1 @3998 ]
+"31076
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4005 ]
+"31096
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @4006 ]
+"31116
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4007 ]
+[s S205 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 FMT 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"31149
+[s S211 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+[s S216 . 1 `uc 1 CCP2MODE 1 0 :4:0 
+`uc 1 CCP2FMT 1 0 :1:4 
+`uc 1 CCP2OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP2EN 1 0 :1:7 
+]
+[s S222 . 1 `uc 1 CCP2MODE0 1 0 :1:0 
+`uc 1 CCP2MODE1 1 0 :1:1 
+`uc 1 CCP2MODE2 1 0 :1:2 
+`uc 1 CCP2MODE3 1 0 :1:3 
+]
+[u S227 . 1 `S205 1 . 1 0 `S211 1 . 1 0 `S216 1 . 1 0 `S222 1 . 1 0 ]
+[v _CCP2CONbits CCP2CONbits `VES227  1 e 1 @4007 ]
+[s S127 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 P3TSEL 1 0 :2:4 
+`uc 1 P4TSEL 1 0 :2:6 
+]
+"31534
+[s S132 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 P3TSEL0 1 0 :1:4 
+`uc 1 P3TSEL1 1 0 :1:5 
+`uc 1 P4TSEL0 1 0 :1:6 
+`uc 1 P4TSEL1 1 0 :1:7 
+]
+[u S141 . 1 `S127 1 . 1 0 `S132 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES141  1 e 1 @4013 ]
+"33406
+[v _TMR5L TMR5L `VEuc  1 e 1 @4032 ]
+"33526
+[v _TMR5H TMR5H `VEuc  1 e 1 @4033 ]
+"33646
+[v _T5CON T5CON `VEuc  1 e 1 @4034 ]
+[s S1172 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"33688
+[s S1682 . 1 `uc 1 TMR5ON 1 0 :1:0 
+`uc 1 T5RD16 1 0 :1:1 
+`uc 1 NOT_T5SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T5CKPS0 1 0 :1:4 
+`uc 1 T5CKPS1 1 0 :1:5 
+]
+"33688
+[s S1185 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+"33688
+[s S1695 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD165 1 0 :1:1 
+]
+"33688
+[s S1698 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nT5SYNC 1 0 :1:2 
+]
+"33688
+[u S1701 . 1 `S1172 1 . 1 0 `S1682 1 . 1 0 `S1185 1 . 1 0 `S1695 1 . 1 0 `S1698 1 . 1 0 ]
+"33688
+"33688
+[v _T5CONbits T5CONbits `VES1701  1 e 1 @4034 ]
+"33868
+[v _T5GCON T5GCON `VEuc  1 e 1 @4035 ]
+"34154
+[v _T5GATE T5GATE `VEuc  1 e 1 @4036 ]
+"34320
+[v _T5CLK T5CLK `VEuc  1 e 1 @4037 ]
+"34573
+[v _TMR3L TMR3L `VEuc  1 e 1 @4038 ]
+"34693
+[v _TMR3H TMR3H `VEuc  1 e 1 @4039 ]
+"34813
+[v _T3CON T3CON `VEuc  1 e 1 @4040 ]
+"34855
+[s S1447 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 T3RD16 1 0 :1:1 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+]
+"34855
+"34855
+[s S1460 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD163 1 0 :1:1 
+]
+"34855
+[s S1463 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nT3SYNC 1 0 :1:2 
+]
+"34855
+[u S1466 . 1 `S1172 1 . 1 0 `S1447 1 . 1 0 `S1185 1 . 1 0 `S1460 1 . 1 0 `S1463 1 . 1 0 ]
+"34855
+"34855
+[v _T3CONbits T3CONbits `VES1466  1 e 1 @4040 ]
+"35035
+[v _T3GCON T3GCON `VEuc  1 e 1 @4041 ]
+"35321
+[v _T3GATE T3GATE `VEuc  1 e 1 @4042 ]
+"35487
+[v _T3CLK T3CLK `VEuc  1 e 1 @4043 ]
+"35740
+[v _TMR1L TMR1L `VEuc  1 e 1 @4044 ]
+"35860
+[v _TMR1H TMR1H `VEuc  1 e 1 @4045 ]
+"35980
+[v _T1CON T1CON `VEuc  1 e 1 @4046 ]
+"36022
+[s S1178 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+"36022
+"36022
+[s S1191 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+"36022
+[s S1194 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nT1SYNC 1 0 :1:2 
+]
+"36022
+[u S1197 . 1 `S1172 1 . 1 0 `S1178 1 . 1 0 `S1185 1 . 1 0 `S1191 1 . 1 0 `S1194 1 . 1 0 ]
+"36022
+"36022
+[v _T1CONbits T1CONbits `VES1197  1 e 1 @4046 ]
+"36202
+[v _T1GCON T1GCON `VEuc  1 e 1 @4047 ]
+"36488
+[v _T1GATE T1GATE `VEuc  1 e 1 @4048 ]
+"36654
+[v _T1CLK T1CLK `VEuc  1 e 1 @4049 ]
+"36900
+[v _TMR0L TMR0L `VEuc  1 e 1 @4050 ]
+"37038
+[v _TMR0H TMR0H `VEuc  1 e 1 @4051 ]
+"37292
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4052 ]
+[s S1037 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"37312
+[s S1043 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+"37312
+[u S1048 . 1 `S1037 1 . 1 0 `S1043 1 . 1 0 ]
+"37312
+"37312
+[v _T0CON0bits T0CON0bits `VES1048  1 e 1 @4052 ]
+"37357
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4053 ]
+[s S572 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"38242
+[s S580 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"38242
+[s S584 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"38242
+[u S588 . 1 `S572 1 . 1 0 `S580 1 . 1 0 `S584 1 . 1 0 ]
+"38242
+"38242
+[v _INTCONbits INTCONbits `VES588  1 e 1 @4082 ]
+"153 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"38 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _SystemState SystemState `VEuc  1 e 1 0 ]
+"39
+[v _DesiredSystemState DesiredSystemState `VEuc  1 e 1 0 ]
+"41
+[v _errorStates errorStates `VEuc  1 e 1 0 ]
+"43
+[v _statusState statusState `VEuc  1 e 1 0 ]
+"45
+[v _prev_current prev_current `VEuc  1 e 1 0 ]
+"47
+[v _currentDetected_flag currentDetected_flag `VEa  1 e 1 0 ]
+"48
+[v _direction direction `VEuc  1 e 1 0 ]
+"49
+[v _debug_flag debug_flag `VEa  1 e 1 0 ]
+"50
+[v _current_flag current_flag `VEa  1 e 1 0 ]
+"56
+[v _InputCommand InputCommand `VEuc  1 e 1 0 ]
+"57
+[v _LastCommand LastCommand `VEuc  1 e 1 0 ]
+"59
+[v _softStop_over_flag softStop_over_flag `VEa  1 e 1 0 ]
+"62
+[v _command command `[8]uc  1 s 8 command ]
+"63
+[v _index index `uc  1 s 1 index ]
+"64
+[v _readMessage readMessage `uc  1 s 1 readMessage ]
+"67
+[v _zcdTriggered zcdTriggered `VEa  1 e 1 0 ]
+"68
+[v _delayCounter delayCounter `VEus  1 e 2 0 ]
+"4 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_InterruptHandler CMP1_InterruptHandler `*.38(v  1 s 3 CMP1_InterruptHandler ]
+"5 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"6
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"7
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"6 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/pins.c
+[v _IOC_counter IOC_counter `VEuc  1 e 1 0 ]
+"7
+[v _IOC_counter_last_check IOC_counter_last_check `VEuc  1 e 1 0 ]
+"8
+[v _Timer0_last_counter Timer0_last_counter `VEus  1 e 2 0 ]
+"9
+[v _IOC_flag IOC_flag `VEa  1 e 1 0 ]
+"11
+[v _IO_RC1_InterruptHandler IO_RC1_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S503 TIMER_INTERFACE 33 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(v 1 Start 3 6 `*.38(v 1 Stop 3 9 `*.38(v 1 PeriodSet 3 12 `*.38(ul 1 PeriodGet 3 15 `*.38(ul 1 CounterGet 3 18 `*.38(v 1 CounterSet 3 21 `*.38(ul 1 MaxCountGet 3 24 `*.38(v 1 TimeoutCallbackRegister 3 27 `*.38(v 1 Tasks 3 30 ]
+"4 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _Timer0 Timer0 `CS503  1 e 33 0 ]
+"18
+[v _tmr0PeriodCount tmr0PeriodCount `VEus  1 s 2 tmr0PeriodCount ]
+"19
+[v _TMR0_OverflowCallback TMR0_OverflowCallback `*.38(v  1 s 3 TMR0_OverflowCallback ]
+"42 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _Timer1 Timer1 `CS503  1 e 33 0 ]
+"56
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 s 2 timer1ReloadVal ]
+"58
+[v _TMR1_OverflowCallback TMR1_OverflowCallback `*.38(v  1 s 3 TMR1_OverflowCallback ]
+"4 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _Timer3 Timer3 `CS503  1 e 33 0 ]
+"18
+[v _timer3ReloadVal timer3ReloadVal `VEus  1 s 2 timer3ReloadVal ]
+"20
+[v _TMR3_OverflowCallback TMR3_OverflowCallback `*.38(v  1 s 3 TMR3_OverflowCallback ]
+"4 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _Timer5 Timer5 `CS503  1 e 33 0 ]
+"18
+[v _timer5ReloadVal timer5ReloadVal `VEus  1 s 2 timer5ReloadVal ]
+"20
+[v _TMR5_OverflowCallback TMR5_OverflowCallback `*.38(v  1 s 3 TMR5_OverflowCallback ]
+[s S1864 . 75 `*.38(v 1 Initialize 3 0 `*.38(v 1 Deinitialize 3 3 `*.38(uc 1 Read 3 6 `*.38(v 1 Write 3 9 `*.38(a 1 IsRxReady 3 12 `*.38(a 1 IsTxReady 3 15 `*.38(a 1 IsTxDone 3 18 `*.38(v 1 EUSARTEnable 3 21 `*.38(v 1 TransmitEnable 3 24 `*.38(v 1 TransmitDisable 3 27 `*.38(v 1 AutoBaudSet 3 30 `*.38(a 1 AutoBaudQuery 3 33 `*.38(a 1 AutoBaudEventEnableGet 3 36 `*.38(v 1 BRGCountSet 3 39 `*.38(ul 1 BRGCountGet 3 42 `*.38(v 1 BaudRateSet 3 45 `*.38(ul 1 BaudRateGet 3 48 `*.38(ui 1 ErrorGet 3 51 `*.38(v 1 TxCompleteCallbackRegister 3 54 `*.38(v 1 RxCompleteCallbackRegister 3 57 `*.38(v 1 TxCollisionCallbackRegister 3 60 `*.38(v 1 FramingErrorCallbackRegister 3 63 `*.38(v 1 OverrunErrorCallbackRegister 3 66 `*.38(v 1 ParityErrorCallbackRegister 3 69 `*.38(v 1 EventCallbackRegister 3 72 ]
+"53 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v _UART UART `CS1864  1 e 75 0 ]
+"83
+[v _eusart1TxHead eusart1TxHead `VEuc  1 s 1 eusart1TxHead ]
+"84
+[v _eusart1TxTail eusart1TxTail `VEuc  1 s 1 eusart1TxTail ]
+"85
+[v _eusart1TxBuffer eusart1TxBuffer `VE[64]uc  1 s 64 eusart1TxBuffer ]
+"86
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 s 1 eusart1TxBufferRemaining ]
+"88
+[v _eusart1RxHead eusart1RxHead `VEuc  1 s 1 eusart1RxHead ]
+"89
+[v _eusart1RxTail eusart1RxTail `VEuc  1 s 1 eusart1RxTail ]
+"90
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 s 8 eusart1RxBuffer ]
+[s S2017 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"96
+[u S2022 . 2 `S2017 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S2022  1 s 16 eusart1RxStatusBuffer ]
+"97
+[v _eusart1RxCount eusart1RxCount `VEuc  1 s 1 eusart1RxCount ]
+"104
+[v _eusart1RxLastError eusart1RxLastError `VES2022  1 s 2 eusart1RxLastError ]
+"110
+[v _EUSART1_TxInterruptHandler EUSART1_TxInterruptHandler `*.38(v  1 e 3 0 ]
+"112
+[v _EUSART1_TxCompleteInterruptHandler EUSART1_TxCompleteInterruptHandler `*.38(v  1 s 3 EUSART1_TxCompleteInterruptHandler ]
+"114
+[v _EUSART1_RxInterruptHandler EUSART1_RxInterruptHandler `*.38(v  1 e 3 0 ]
+"115
+[v _EUSART1_RxCompleteInterruptHandler EUSART1_RxCompleteInterruptHandler `*.38(v  1 s 3 EUSART1_RxCompleteInterruptHandler ]
+"117
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 s 3 EUSART1_FramingErrorHandler ]
+"118
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 s 3 EUSART1_OverrunErrorHandler ]
+"639 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"668
+} 0
+"250
+[v _errorHandler errorHandler `(v  1 e 1 0 ]
+{
+"260
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 22 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 20 ]
+"13
+} 0
+"1817 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 3 ]
+[s S3368 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.39S3368  1 p 2 14 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 16 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 18 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S3368 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.39S3368  1 p 2 9 ]
+[v vfpfcnvrt@fmt fmt `*.30*.32uc  1 p 1 11 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 12 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S3347 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S3350 _IO_FILE 11 `S3347 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S3350  1 p 2 2 ]
+"24
+} 0
+"409 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 2 ]
+"416
+} 1
+"353
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+"355
+[v EUSART1_Write@tempTxHead tempTxHead `uc  1 a 1 1 ]
+"353
+[v EUSART1_Write@txData txData `uc  1 p 1 0 ]
+"375
+} 0
+"272
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+{
+"275
+} 0
+"448 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _ZCD_Handler ZCD_Handler `(v  1 e 1 0 ]
+{
+"509
+} 0
+"327
+[v _controlManager controlManager `(v  1 e 1 0 ]
+{
+"416
+} 0
+"244
+[v _errorManager errorManager `T(v  1 s 1 errorManager ]
+{
+"248
+} 0
+"290
+[v _controlStopStartChange controlStopStartChange `(a  1 e 1 0 ]
+{
+"300
+[v controlStopStartChange@system_in_soft_stop system_in_soft_stop `a  1 a 1 2 ]
+"296
+[v controlStopStartChange@same_dir same_dir `a  1 a 1 1 ]
+"292
+[v controlStopStartChange@running running `a  1 a 1 0 ]
+"305
+} 0
+"310
+[v _controlMismatchDirectionSoftStart controlMismatchDirectionSoftStart `(a  1 e 1 0 ]
+{
+"320
+[v controlMismatchDirectionSoftStart@in_soft_start in_soft_start `a  1 a 1 2 ]
+"316
+[v controlMismatchDirectionSoftStart@not_same_dir not_same_dir `a  1 a 1 1 ]
+"312
+[v controlMismatchDirectionSoftStart@running running `a  1 a 1 0 ]
+"325
+} 0
+"419
+[v _CCP2_ArmOneShot CCP2_ArmOneShot `T(v  1 s 1 CCP2_ArmOneShot ]
+{
+"425
+[v CCP2_ArmOneShot@c c `us  1 a 2 2 ]
+"419
+[v CCP2_ArmOneShot@ticks ticks `us  1 p 2 0 ]
+"441
+} 0
+"74 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_Stop TMR3_Stop `(v  1 e 1 0 ]
+{
+"77
+} 0
+"112 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+{
+"115
+} 0
+"65 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+{
+"68
+} 0
+"74 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_Stop TMR5_Stop `(v  1 e 1 0 ]
+{
+"77
+} 0
+"69 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_Start TMR3_Start `(v  1 e 1 0 ]
+{
+"72
+} 0
+"107 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+{
+"110
+} 0
+"60 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+{
+"63
+} 0
+"69 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_Start TMR5_Start `(v  1 e 1 0 ]
+{
+"72
+} 0
+"93 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_CounterSet TMR3_CounterSet `(v  1 e 1 0 ]
+{
+"97
+[v TMR3_CounterSet@onState onState `a  1 a 1 4 ]
+"93
+[v TMR3_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"109
+} 0
+"131 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+{
+"135
+[v TMR1_CounterSet@onState onState `a  1 a 1 4 ]
+"131
+[v TMR1_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"147
+} 0
+"83 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+{
+[v TMR0_CounterSet@counterValue counterValue `ul  1 p 4 0 ]
+"87
+} 0
+"93 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_CounterSet TMR5_CounterSet `(v  1 e 1 0 ]
+{
+"97
+[v TMR5_CounterSet@onState onState `a  1 a 1 4 ]
+"93
+[v TMR5_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"109
+} 0
+"142 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_OverflowCallbackRegister TMR3_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR3_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 0 ]
+"145
+} 0
+"179 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 0 ]
+"182
+} 0
+"119 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR0_OverflowCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"122
+} 0
+"144 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_OverflowCallbackRegister TMR5_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR5_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 0 ]
+"147
+} 0
+"38 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"52
+} 0
+"22 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_Initialize TMR5_Initialize `(v  1 e 1 0 ]
+{
+"49
+} 0
+"22 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_Initialize TMR3_Initialize `(v  1 e 1 0 ]
+{
+"49
+} 0
+"60 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"26 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"45
+} 0
+"13 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"128
+} 0
+"159
+[v _IO_RC1_SetInterruptHandler IO_RC1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IO_RC1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"161
+} 0
+"9 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"38
+} 0
+"161
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"163
+} 0
+"135
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"137
+} 0
+"109
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"111
+} 0
+"43 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/fvr/src/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"131 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"165
+} 0
+"438
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"444
+} 0
+"430
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"436
+} 0
+"44 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/dac/src/dac1.c
+[v _DAC1_Initialize DAC1_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"8 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/comparator/src/cmp1.c
+[v _CMP1_Initialize CMP1_Initialize `(v  1 e 1 0 ]
+{
+"36
+} 0
+"39 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"44 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/compare/src/ccp2.c
+[v _CCP2_Initialize CCP2_Initialize `(v  1 e 1 0 ]
+{
+"65
+} 0
+"446 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_RxCompleteCallbackRegister EUSART1_RxCompleteCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_RxCompleteCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"452
+} 0
+"47 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"89
+} 0
+"128 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_OverflowISR TMR5_OverflowISR `(v  1 e 1 0 ]
+{
+"142
+} 0
+"147 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_DefaultOverflowCallback TMR3_DefaultOverflowCallback `(v  1 s 1 TMR3_DefaultOverflowCallback ]
+{
+"150
+} 0
+"620 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _enableCMP1 enableCMP1 `(v  1 e 1 0 ]
+{
+"623
+} 0
+"184 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+{
+"187
+} 0
+"576 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _checkCurrentDetection checkCurrentDetection `(v  1 e 1 0 ]
+{
+"606
+[v checkCurrentDetection@cur_flag cur_flag `uc  1 a 1 14 ]
+"581
+[v checkCurrentDetection@sample sample `uc  1 a 1 13 ]
+[v checkCurrentDetection@delta delta `uc  1 a 1 12 ]
+"580
+[v checkCurrentDetection@prev_sample prev_sample `uc  1 s 1 prev_sample ]
+"605
+[v checkCurrentDetection@last_flag last_flag `uc  1 s 1 last_flag ]
+"614
+} 0
+"124 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+{
+"127
+} 0
+"561 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _setTriacLow setTriacLow `(v  1 e 1 0 ]
+{
+"574
+} 0
+"149 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_DefaultOverflowCallback TMR5_DefaultOverflowCallback `(v  1 s 1 TMR5_DefaultOverflowCallback ]
+{
+"152
+} 0
+"128 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_OverflowISR TMR3_OverflowISR `(v  1 e 1 0 ]
+{
+"140
+} 0
+"166 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_OverflowISR TMR1_OverflowISR `(v  1 e 1 0 ]
+{
+"177
+} 0
+"107 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"117
+} 0
+"130 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"137
+} 0
+"142
+[v _IO_RC1_ISR IO_RC1_ISR `(v  1 e 1 0 ]
+{
+"146
+[v IO_RC1_ISR@now now `us  1 a 2 13 ]
+"143
+[v IO_RC1_ISR@dummy dummy `VEuc  1 a 1 12 ]
+"154
+} 0
+"79 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v _TMR3_CounterGet TMR3_CounterGet `(ul  1 e 4 0 ]
+{
+"81
+[v TMR3_CounterGet@readVal readVal `us  1 a 2 6 ]
+"83
+[v TMR3_CounterGet@readValLow readValLow `uc  1 a 1 9 ]
+"82
+[v TMR3_CounterGet@readValHigh readValHigh `uc  1 a 1 8 ]
+"91
+} 0
+"117 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_CounterGet TMR1_CounterGet `(ul  1 e 4 0 ]
+{
+"119
+[v TMR1_CounterGet@readVal readVal `us  1 a 2 6 ]
+"121
+[v TMR1_CounterGet@readValLow readValLow `uc  1 a 1 9 ]
+"120
+[v TMR1_CounterGet@readValHigh readValHigh `uc  1 a 1 8 ]
+"129
+} 0
+"70 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_CounterGet TMR0_CounterGet `(ul  1 e 4 0 ]
+{
+"72
+[v TMR0_CounterGet@counterValue counterValue `us  1 a 2 6 ]
+"74
+[v TMR0_CounterGet@counterHighByte counterHighByte `uc  1 a 1 9 ]
+"73
+[v TMR0_CounterGet@counterLowByte counterLowByte `uc  1 a 1 8 ]
+"81
+} 0
+"79 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v _TMR5_CounterGet TMR5_CounterGet `(ul  1 e 4 0 ]
+{
+"81
+[v TMR5_CounterGet@readVal readVal `us  1 a 2 6 ]
+"83
+[v TMR5_CounterGet@readValLow readValLow `uc  1 a 1 9 ]
+"82
+[v TMR5_CounterGet@readValHigh readValHigh `uc  1 a 1 8 ]
+"91
+} 0
+"377 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_TransmitISR EUSART1_TransmitISR `(v  1 e 1 0 ]
+{
+"379
+[v EUSART1_TransmitISR@tempTxTail tempTxTail `uc  1 a 1 0 ]
+"398
+} 0
+"308
+[v _EUSART1_ReceiveISR EUSART1_ReceiveISR `(v  1 e 1 0 ]
+{
+"311
+[v EUSART1_ReceiveISR@tempRxHead tempRxHead `uc  1 a 1 23 ]
+"310
+[v EUSART1_ReceiveISR@regValue regValue `uc  1 a 1 22 ]
+"351
+} 0
+"115 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _UART_ProcessCommand UART_ProcessCommand `(v  1 e 1 0 ]
+{
+"128
+[v UART_ProcessCommand@cmd6 cmd6 `uc  1 a 1 21 ]
+"118
+[v UART_ProcessCommand@b b `uc  1 a 1 20 ]
+"150
+} 0
+"262
+[v _inputManager inputManager `(v  1 e 1 0 ]
+{
+"285
+} 0
+"327
+[v i2_controlManager controlManager `(v  1 e 1 0 ]
+{
+"416
+} 0
+"244
+[v i2_errorManager errorManager `T(v  1 s 1 i2_errorManager ]
+{
+"248
+} 0
+"290
+[v i2_controlStopStartChange controlStopStartChange `(a  1 e 1 0 ]
+{
+"300
+[v i2controlStopStartChange@system_in_soft_stop system_in_soft_stop `a  1 a 1 4 ]
+"296
+[v i2controlStopStartChange@same_dir same_dir `a  1 a 1 3 ]
+"292
+[v i2controlStopStartChange@running running `a  1 a 1 2 ]
+"305
+} 0
+"310
+[v i2_controlMismatchDirectionSoftStart controlMismatchDirectionSoftStart `(a  1 e 1 0 ]
+{
+"320
+[v i2controlMismatchDirectionSoftStart@in_soft_start in_soft_start `a  1 a 1 4 ]
+"316
+[v i2controlMismatchDirectionSoftStart@not_same_dir not_same_dir `a  1 a 1 3 ]
+"312
+[v i2controlMismatchDirectionSoftStart@running running `a  1 a 1 2 ]
+"325
+} 0
+"87
+[v _UART_SendBinary UART_SendBinary `(v  1 e 1 0 ]
+{
+"105
+[v UART_SendBinary@i_2656 i `i  1 a 2 18 ]
+"100
+[v UART_SendBinary@i i `i  1 a 2 16 ]
+"104
+[v UART_SendBinary@val_2655 val `uc  1 a 1 15 ]
+"99
+[v UART_SendBinary@val val `us  1 a 2 9 ]
+"87
+[v UART_SendBinary@text text `*.32Cuc  1 p 2 2 ]
+[v UART_SendBinary@value value `*.30v  1 p 1 4 ]
+[v UART_SendBinary@is_uint16 is_uint16 `uc  1 p 1 5 ]
+"113
+} 0
+"353 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/uart/src/eusart1.c
+[v i2_EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+"355
+[v i2EUSART1_Write@tempTxHead tempTxHead `uc  1 a 1 1 ]
+"353
+[v i2EUSART1_Write@txData txData `uc  1 p 1 0 ]
+"375
+} 0
+"288
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"290
+[v EUSART1_Read@readValue readValue `uc  1 a 1 1 ]
+"291
+[v EUSART1_Read@tempRxTail tempRxTail `uc  1 a 1 0 ]
+"306
+} 0
+"423
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+{
+"428
+} 0
+"418
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+{
+"421
+} 0
+"625 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _CMP1_ISR CMP1_ISR `(v  1 e 1 0 ]
+{
+"637
+} 0
+"512
+[v _CCP2_CompareISR CCP2_CompareISR `(v  1 e 1 0 ]
+{
+"522
+} 0
+"74 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v i2_TMR3_Stop TMR3_Stop `(v  1 e 1 0 ]
+{
+"77
+} 0
+"112 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v i2_TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+{
+"115
+} 0
+"65 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v i2_TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+{
+"68
+} 0
+"74 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v i2_TMR5_Stop TMR5_Stop `(v  1 e 1 0 ]
+{
+"77
+} 0
+"93 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v i2_TMR3_CounterSet TMR3_CounterSet `(v  1 e 1 0 ]
+{
+"97
+[v i2TMR3_CounterSet@onState onState `a  1 a 1 4 ]
+"93
+[v i2TMR3_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"109
+} 0
+"131 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v i2_TMR1_CounterSet TMR1_CounterSet `(v  1 e 1 0 ]
+{
+"135
+[v i2TMR1_CounterSet@onState onState `a  1 a 1 4 ]
+"131
+[v i2TMR1_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"147
+} 0
+"83 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v i2_TMR0_CounterSet TMR0_CounterSet `(v  1 e 1 0 ]
+{
+[v i2TMR0_CounterSet@counterValue counterValue `ul  1 p 4 0 ]
+"87
+} 0
+"93 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v i2_TMR5_CounterSet TMR5_CounterSet `(v  1 e 1 0 ]
+{
+"97
+[v i2TMR5_CounterSet@onState onState `a  1 a 1 4 ]
+"93
+[v i2TMR5_CounterSet@timerVal timerVal `ul  1 p 4 0 ]
+"109
+} 0
+"524 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\main.c
+[v _setTriacHigh setTriacHigh `(v  1 e 1 0 ]
+{
+"559
+} 0
+"69 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr3.c
+[v i2_TMR3_Start TMR3_Start `(v  1 e 1 0 ]
+{
+"72
+} 0
+"107 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr1.c
+[v i2_TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+{
+"110
+} 0
+"60 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr0.c
+[v i2_TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+{
+"63
+} 0
+"69 C:\Users\jazzg\MPLABXProjects\Diplomski_rad.X\mcc_generated_files/timer/src/tmr5.c
+[v i2_TMR5_Start TMR5_Start `(v  1 e 1 0 ]
+{
+"72
+} 0
