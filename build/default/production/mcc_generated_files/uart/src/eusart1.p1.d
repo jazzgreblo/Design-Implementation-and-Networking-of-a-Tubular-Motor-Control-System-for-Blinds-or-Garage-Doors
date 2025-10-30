@@ -1,0 +1,20 @@
+build/default/production/mcc_generated_files/uart/src/eusart1.p1:  \
+mcc_generated_files/uart/src/eusart1.c  \
+mcc_generated_files/uart/src/../eusart1.h  \
+mcc_generated_files/uart/src/../../system/system.h  \
+mcc_generated_files/uart/src/../../system/config_bits.h  \
+mcc_generated_files/uart/src/../../system/../system/clock.h  \
+mcc_generated_files/uart/src/../../system/../system/pins.h  \
+mcc_generated_files/uart/src/../../system/../comparator/cmp1.h  \
+mcc_generated_files/uart/src/../../system/../dac/dac1.h  \
+mcc_generated_files/uart/src/../../system/../uart/eusart1.h  \
+mcc_generated_files/uart/src/../../system/../fvr/fvr.h  \
+mcc_generated_files/uart/src/../../system/../system/interrupt.h  \
+mcc_generated_files/uart/src/../../system/../compare/ccp2.h  \
+mcc_generated_files/uart/src/../../system/../timer/tmr0.h  \
+mcc_generated_files/uart/src/../../system/../timer/timer_interface.h  \
+mcc_generated_files/uart/src/../../system/../timer/tmr1.h  \
+mcc_generated_files/uart/src/../../system/../timer/tmr3.h  \
+mcc_generated_files/uart/src/../../system/../timer/tmr5.h  \
+mcc_generated_files/uart/src/../uart_drv_interface.h  \
+mcc_generated_files/uart/src/../uart_types.h 
