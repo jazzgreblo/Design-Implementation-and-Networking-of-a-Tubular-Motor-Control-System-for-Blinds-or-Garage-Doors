@@ -11,5 +11,5 @@ voltages above 150mV on the load resistor. The capacitors on the input are used 
 the input is a current transformer connected to the load current of a motor. The next part is a differental amplifier used
 to add a DC offset to the input voltage to put the input in the middle of the voltage supply range. Lastly a histeresis comparator
 is used to define the value of the detected voltage. 
-The values of the components in the histeresis comparator were calculated from Texas Instruments guide on histeresis comparators:
+The values of the components in the histeresis comparator were calculated from Texas Instruments guide on histeresis comparators
 that can be found in the file: tidu020a_Comparator with Hysteresis Reference Design.pdf
